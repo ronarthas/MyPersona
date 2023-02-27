@@ -1,0 +1,9 @@
+{
+    "namespace1": {
+      "key": "salut depuis le namespace 1"
+    },
+    "namespace2": {
+      "key": "salut depuis le namespace 2"
+    }
+  }
+  

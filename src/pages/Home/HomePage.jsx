@@ -1,7 +1,9 @@
+import { useTranslation } from 'react-i18next';
+
 export default function HomePage() {
-  return (
+  const { t } = useTranslation(['translation', 'common']);  return (
     <div>
-      <p>C'est la home</p>
+      <p>{t('key',{ns:namespace1})}</p>
     </div>
   );
 }
